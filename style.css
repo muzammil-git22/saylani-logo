@@ -8,20 +8,23 @@
 body {
     min-height: 100vh;
 }
-.main{
-overflow: hidden;
-width: 100%;
+
+.main {
+    overflow: hidden;
+    width: 100%;
 }
+
 .container {
     display: flex;
     min-height: 100vh;
     max-width: 1440px;
-height: 1024px;
-top: -512px;
-left: -720px;
-gap: 0px;
-opacity: 0px;
+    height: 1024px;
+    top: -512px;
+    left: -720px;
+    gap: 0px;
+    opacity: 0px;
 }
+
 .login-section {
     flex: 1;
     background-color: #00205B;
@@ -97,8 +100,8 @@ opacity: 0px;
     color: rgba(255, 255, 255, 0.5);
 }
 
-.input-previous{
-   display: flex;
+.input-previous {
+    display: flex;
     align-items: center;
     background-color: rgba(0, 0, 255, 0.1);
     border: 1px solid #0066ff;
@@ -141,12 +144,15 @@ opacity: 0px;
     width: 100%;
     outline: none;
 }
-.password-input svg{
+
+.password-input svg {
     cursor: pointer;
 }
+
 .password-input::placeholder {
     color: rgba(255, 255, 255, 0.5);
 }
+
 .forgot-password {
     position: relative;
     text-align: right;
@@ -237,7 +243,7 @@ opacity: 0px;
 .create-account {
     text-align: center;
     margin-top: 20px;
-    
+
 }
 
 .create-account a {
@@ -251,36 +257,40 @@ opacity: 0px;
         align-items: flex-start;
         overflow: hidden;
     }
-.login-section{
-    width: 100%;
 
-}
+    .login-section {
+        width: 100%;
+
+    }
+
     .image-section {
         display: none;
     }
 
-    .login-section {
-        padding: 1rem;
-    }
-    .logo-container{
+    .logo-container {
         display: flex;
         align-items: center;
         justify-content: center;
     }
-.logo-container img{
-  width: 300px;  
-}
-.logo-container{
-    width: 100%;
-}
+
+    .logo-container img {
+        width: 300px;
+    }
+
+    .logo-container {
+        width: 100%;
+    }
+
     .preview-container {
         max-width: 90%;
     }
-    .image-section{
+
+    .image-section {
         display: none;
         overflow: hidden;
     }
-    .forgot-password{
+
+    .forgot-password {
         margin: 0px 50px;
     }
 }
